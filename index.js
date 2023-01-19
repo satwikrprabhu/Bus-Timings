@@ -49,13 +49,11 @@ var busTimings = [
     { time: "17:22", name: "Navadurga Prasad" }
   ];
   
-// Get the current time in 24-hour format
-// Get the current time in 24-hour format
+
 var currentTime = new Date();
 var hours = currentTime.getHours();
 var minutes = currentTime.getMinutes();
 
-// Sort the busTimings array
 busTimings.sort(function(a, b) {
     var timeA = a.time.split(':');
     var timeB = b.time.split(':');
@@ -64,7 +62,6 @@ busTimings.sort(function(a, b) {
     return busTimeA - busTimeB;
 });
 
-// Find the next bus
 var nextBus = null;
 var currTime = hours * 60 + minutes;
 for (var i = 0; i < busTimings.length; i++) {
@@ -76,9 +73,6 @@ for (var i = 0; i < busTimings.length; i++) {
     }
 }
 
-
-
-// Display the next bus timing
 var nextBusElement = document.getElementById("next-bus");
 if (nextBus) {
   nextBusElement.innerHTML = "Next bus: " + nextBus.name + " at " + nextBus.time;
