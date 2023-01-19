@@ -1,4 +1,4 @@
-// Set up an array of bus timings and names
+
 var busTimings = [
   { time: "08:00", name: "Vishal" },
   { time: "08:10", name: "Vishal" },
@@ -49,8 +49,7 @@ var busTimings = [
     { time: "22:22", name: "Navadurga Prasad" }
   ];
   
-// Get the current time in 24-hour format
-// Get the current time in 24-hour format
+
 var currentTime = new Date();
 var hours = currentTime.getHours();
 var minutes = currentTime.getMinutes();
