@@ -46,7 +46,7 @@ var busTimings = [
     { time: "16:41", name: "Vishal" },
     { time: "16:56", name: "Vishal" },
     { time: "17:07", name: "Navadurga Prasad" },
-    { time: "22:22", name: "Navadurga Prasad" }
+    { time: "17:22", name: "Navadurga Prasad" }
   ];
   
 
