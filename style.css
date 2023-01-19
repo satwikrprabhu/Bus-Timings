@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-  background: linear-gradient(to bottom, #000000, #333333);
+  background: linear-gradient(to bottom, #000000aa, #333333);
   height: 100vh;
 }
 
 #next-bus {
-  background: linear-gradient(to bottom, #000000, #333333);
+  background: linear-gradient(to bottom, #000000, #3c3b3bd9);
   color: white;
   padding: 20px;
   text-align: center;
   width: 50%;
+  height: 50%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: bold;
+  border-radius: 50px;
+  border: 5px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
