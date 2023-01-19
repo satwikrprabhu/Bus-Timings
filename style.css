@@ -13,4 +13,6 @@ body {
   width: 50%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
 }
