@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  background: linear-gradient(to bottom, #000000, #333333);
+  height: 100vh;
+}
+
+#next-bus {
+  background: linear-gradient(to bottom, #000000, #333333);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
